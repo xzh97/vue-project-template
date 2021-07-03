@@ -1,0 +1,49 @@
+{
+  "name": "vue-project-template",
+  "version": "1.0.0",
+  "description": "vue项目工程模板",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run dev",
+    "dev": "webpack-dev-server --progress --config ./build/webpack.dev.config.js",
+    "rm": "rimraf ./dist",
+    "build": "npm run rm && webpack --config ./build/webpack.dev.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xzh97/vue-project-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xzh97/vue-project-template/issues"
+  },
+  "homepage": "https://github.com/xzh97/vue-project-template#readme",
+  "dependencies": {
+    "babel-loader": "^8.2.2",
+    "core-js": "^3.15.2",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.2",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.5",
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^6.0.1",
+    "rimraf": "^3.0.2",
+    "sass-loader": "^10.2.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.7",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "4.32.0",
+    "webpack-cli": "3.3.2",
+    "webpack-dev-server": "3.5.1"
+  }
+}
