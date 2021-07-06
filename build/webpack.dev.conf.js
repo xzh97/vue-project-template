@@ -61,7 +61,7 @@ const config = {
     devServer:{
         hot: true, // 开启热更新
         host: 'localhost',
-        port: 8000,
+        port: 8001,
         open: true,
         publicPath: '/',
         overlay: true,

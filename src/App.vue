@@ -17,6 +17,17 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang='scss' scoped>
+.bg1{
+    background: #eee;
+}
+.bg2{
+    background: #ccc;
+}
+.bg3{
+    background: #999;
+}
+.bg4{
+    background: #666;
+}
 </style>

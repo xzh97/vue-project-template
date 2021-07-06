@@ -1,7 +1,7 @@
 <template>
     <div>
-        <img :src="defaultImg" alt="">
-        <p>{{text}}</p>
+        <img class="default-img" :src="defaultImg" alt="">
+        <p class="text">{{text}}</p>
     </div>
 </template>
 
@@ -23,5 +23,13 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-
+.default-img{
+    display: block;
+    width: 100px;
+    margin: 8px auto;
+}
+.text{
+    font-size: 18px;
+    text-align: center;
+}
 </style>
