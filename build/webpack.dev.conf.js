@@ -47,8 +47,8 @@ const config = {
     plugins:[
         new HtmlWebpack({
             filename: 'index.html',
-            template: './static/index.html',
-            inject: true
+            template: './public/index.html',
+            title: 'xizh的项目'
         }),
         new VueLoaderPlugin(),
         

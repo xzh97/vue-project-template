@@ -6,18 +6,18 @@ Vue.use(VueRouter)
 const routes = [
     {
         path: '/',
-        name: 'index',
         redirect: '/index',
     },
     {
         path: '/index',
         name: 'index',
-        component: () => import('@/pages/home/index')
+        component: () => import( /* webpackChunkName: "homePage" */ '@/pages/home/index')
     },
 ]
 const router = new VueRouter({
     routes
 })
+
 router.beforeEach((to, from ,next) => {
     next()
 })
