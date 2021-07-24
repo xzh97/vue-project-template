@@ -1,8 +1,8 @@
 {
   "name": "vue-project-template",
   "version": "1.0.0",
-  "description": "vue项目工程模板",
-  "main": "index.js",
+  "description": "a Vue.js Project",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run dev",
