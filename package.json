@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xzh97/vue-project-template.git"
+    "url": ""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xzh97/vue-project-template/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/xzh97/vue-project-template#readme",
+  "homepage": "",
   "dependencies": {
     "babel-loader": "^8.2.2",
     "core-js": "^3.15.2",
