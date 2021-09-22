@@ -2,6 +2,8 @@ const path = require('path');
 const VueLoaderPlugin = require('vue-loader/lib/plugin')
 const HtmlWebpack = require('html-webpack-plugin')
 
+const config = require('../config/index')
+const currentEnviornment = process.env.appEnv
 
 const config = {
     mode: 'development',
@@ -65,6 +67,12 @@ const config = {
         open: true,
         publicPath: '/',
         overlay: true,
+        proxy: {
+            '/api': {
+                target: config[currentEnviornment].apiUrl,
+                changeOrigin: true,
+            }
+        }
     }
 }
 
