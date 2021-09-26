@@ -5,7 +5,7 @@ const HtmlWebpack = require('html-webpack-plugin')
 const config = require('../config/index')
 const currentEnviornment = process.env.appEnv
 
-const config = {
+module.exports = {
     mode: 'development',
     entry: './src/main.js',
     context: path.resolve(__dirname, '../'),
@@ -75,5 +75,3 @@ const config = {
         }
     }
 }
-
-module.exports = config

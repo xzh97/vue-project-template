@@ -1,7 +1,7 @@
-import dev from './dev'
-import prod from './prod'
+const dev = require('./dev')
+const prod = require('./prod')
 
-export default {
+module.exports = {
     dev,
     prod
 }
